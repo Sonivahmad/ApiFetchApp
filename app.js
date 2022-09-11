@@ -32,7 +32,7 @@ function getMealList(){
                     </div>
                 `;
             });
-            mealList.classList.remove('notFound');
+            mealList.classList.remove('now closed');
         } else{
             html = "we are unavailable!";
             mealList.classList.add('now closed');
