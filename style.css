@@ -31,19 +31,18 @@ body{
 .title{
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: white;
+    color: rgb(168, 101, 14);
 }
-
+span{
+    color: gray;
+}
 
 /*  */
-.container{
-    min-height: 200px;
-}
 .meal-wrapper{
-    max-width: 1000px;
+    max-width: 4000px;
     margin: 0 auto;
     padding: 2rem;
-    background: lightcoral;
+    background: rgb(36, 33, 33);
     text-align: center;
 }
 .meal-search{
